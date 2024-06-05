@@ -1,2 +1,4 @@
 def say_hello():
-    print("Bonjour, utilisateur!")
+    nom = input("Quel est votre nom? ")
+    print(f"Bonjour, {nom}!")
+    
